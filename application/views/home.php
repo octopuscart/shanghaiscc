@@ -137,7 +137,7 @@
                                      data-endspeed="1000"
                                      data-endeasing="Power4.easeIn" style="z-index: 3; max-width: 550px; white-space: normal;">After the Chinese independence skilled Shanghai's Tailors were started moving to Hong Kong, and since then they has been providing their best Workmanship in Hong Kong.</div>
 
-                         
+
 
                             </li>
                             <!-- SLIDE  -->
@@ -276,7 +276,7 @@
                                 <li><a href="#"><div><i class="icon-th"></i>Styles</div></a></li>
                                 <li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
                                 <li><a href="#"><div><i class="icon-pencil2"></i>Your Orders</div></a></li>
-                                <li><a href="#"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
+                                <li><a href="<?php echo site_url("contact-us");?>"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
 
                             </ul>
 
@@ -427,12 +427,12 @@
                                     <div style="background: url('<?php echo base_url(); ?>assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                         <address>
                                             <strong>Location:</strong><br>
-Shop 22B, G/F,<br/>
-Hankow Centre,<br/>
-5-15 Hankow Road<br/> 
-Tsim Sha Tsui,<br/>
-Kowloon Hong Kong                                        </address>
-                                       
+                                            Shop 22B, G/F,<br/>
+                                            Hankow Centre,<br/>
+                                            5-15 Hankow Road<br/> 
+                                            Tsim Sha Tsui,<br/>
+                                            Kowloon, Hong Kong                                        </address>
+
 
                                     </div>
 
@@ -453,7 +453,7 @@ Kowloon Hong Kong                                        </address>
                                         <li><a href="">Styles</a></li>
                                         <li><a href="">Reviews</a></li>
                                         <li><a href="">Your Orders</a></li>
-                                        <li><a href="">Contact</a></li>
+                                        <li><a href="<?php echo site_url("contact-us");?>">Contact</a></li>
                                     </ul>
 
                                 </div>
@@ -576,9 +576,9 @@ Kowloon Hong Kong                                        </address>
 
 
                             <div class="modal-body" style="padding: 0px;">
-                                        <button type="button" class="close" data-dismiss="modal" style="    position: absolute;
-    right: 8px;
-    color: #000;">&times;</button>
+                                <button type="button" class="close" data-dismiss="modal" style="    position: absolute;
+                                        right: 8px;
+                                        color: #000;">&times;</button>
 
                                 <img src="<?php echo base_url(); ?>assets/images/ad.jpg">
                             </div>
@@ -646,7 +646,7 @@ Kowloon Hong Kong                                        </address>
 
             tpj(document).ready(function () {
 
-              jQuery("#appointmentmodel").modal("show");
+                jQuery("#appointmentmodel").modal("show");
 
                 var apiRevoSlider = tpj('#rev_slider_irestaurant').show().revolution(
                         {

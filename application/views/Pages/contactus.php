@@ -1,40 +1,9 @@
 <?php
 $this->load->view('layout/header');
 ?>
-<div class="google-map-area">
-    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA319S-ZyrzBQNhbYmjGedtOfl8wm6tY0Y&v=3.exp'></script><div style='overflow:hidden;height:338px;width:100%;'>
-        <div id='gmap_canvas' style='height:338px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small>
-
-            </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-    </div><script type='text/javascript'>
-        function init_map() {
-            //22.2968045,114.1687551  22.2969039,114.1623853
-            var myOptions = {zoom: 13, center: new google.maps.LatLng(22.3002741, 114.1779154),
-                mapTypeId: google.maps.MapTypeId.ROADMAP};
-            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(22.3002741, 114.1779154)});
-
-
-
-
-            infowindow = new google.maps.InfoWindow({content: '<strong>Hong Kong Bespoke Tailors</strong><br>\
-            Room No. 603, 6/F, Tower A, <br/>New Mandarin Plaza,<br/> 14 Science Museum Road, T.S.T, Hong Kong<br>'});
-
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-            infowindow.open(map, marker);
-
-
-
-
-
-        }
-        google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-</div>
-
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.537609290042!2d114.17099675152589!3d22.295498869329954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ec9eb6f00d%3A0x1ffe11fbfb9cbb0f!2sManning+Company+Bespoke+Tailors!5e0!3m2!1sen!2sin!4v1491288945320"
+        width="100%" height="400" frameborder="0" style="border: 0;;" allowfullscreen>
+</iframe>
 
 
 <!--content-->
@@ -49,7 +18,7 @@ $this->load->view('layout/header');
                     <ul class="col-lg-7 col-md-7 col-sm-7 fw_light w_break m_bottom_45 m_xs_bottom_30">
                         <li class="m_bottom_8">
                             <a href="tel:85223672676"> 
-                               <div class="d_inline_m icon_wrap_size_1 color_dark  circle m_right_10">
+                                <div class="d_inline_m icon_wrap_size_1 color_dark  circle m_right_10">
                                     <i class="icon-phone-1"></i>
                                 </div>
                                 +(852) 2367 2676<br/> 
