@@ -137,19 +137,7 @@
                                      data-endspeed="1000"
                                      data-endeasing="Power4.easeIn" style="z-index: 3; max-width: 550px; white-space: normal;">After the Chinese independence skilled Shanghai's Tailors were started moving to Hong Kong, and since then they has been providing their best Workmanship in Hong Kong.</div>
 
-                                <div class="tp-caption ltl tp-resizeme"
-                                     data-x="600"
-                                     data-y="450"
-                                     data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
-                                     data-speed="800"
-                                     data-start="1550"
-                                     data-easing="easeOutQuad"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.1"
-                                     data-endspeed="1000"
-                                     data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-white button-light button-border button-large button-rounded tright nomargin"><span>Browse Menu</span> <i class="icon-angle-right"></i></a></div>
+                         
 
                             </li>
                             <!-- SLIDE  -->
@@ -201,19 +189,6 @@
                                      data-endspeed="1000"
                                      data-endeasing="Power4.easeIn" style="z-index: 3; color: #fff; max-width: 550px; white-space: normal;">Providing the latest styles, according different body shapes and under the close observations of cut and stitch.</div>
 
-                                <div class="tp-caption ltl tp-resizeme"
-                                     data-x="0"
-                                     data-y="450"
-                                     data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
-                                     data-speed="800"
-                                     data-start="1550"
-                                     data-easing="easeOutQuad"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.1"
-                                     data-endspeed="1000"
-                                     data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-3d button-black button-large button-rounded tright nomargin" style="color: #FFF;"><span>Reserve Now</span> <i class="icon-angle-right"></i></a></div>
 
                             </li>
                             <!-- SLIDE  -->
@@ -446,7 +421,7 @@
 
                                 <div class="widget clearfix">
 
-                                    <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="" class="footer-logo" style="margin-top: -31px;">
+                                    <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="" class="footer-logo" style="margin-top: -31px;    margin-bottom: 0px;">
 
 
                                     <div style="background: url('<?php echo base_url(); ?>assets/images/world-map.png') no-repeat center center; background-size: 100%;">
@@ -601,7 +576,11 @@ Kowloon Hong Kong                                        </address>
 
 
                             <div class="modal-body" style="padding: 0px;">
-                                <img src="assets/images/country/">
+                                        <button type="button" class="close" data-dismiss="modal" style="    position: absolute;
+    right: 8px;
+    color: #000;">&times;</button>
+
+                                <img src="<?php echo base_url(); ?>assets/images/ad.jpg">
                             </div>
 
 
