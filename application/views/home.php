@@ -5,6 +5,15 @@
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="author" content="SemiColonWeb" />
+        <?php
+        meta_tags();
+        ?>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="<?php echo base_url() . 'assets/images/logof.png'; ?>" type="image/x-icon">
+        <link rel="icon" href="<?php echo base_url() . 'assets/images/logof.png'; ?>" type="image/x-icon">
+
+        <link rel="shortcut icon" href="<?php echo base_url() . 'assets/images/logof.png'; ?>"/>
+        <link rel="apple-touch-icon image_src" href="<?php echo base_url() . 'assets/images/logof.png'; ?>"/>
 
         <!-- Stylesheets
         ============================================= -->
@@ -29,8 +38,7 @@
 
         <!-- Document Title
         ============================================= -->
-        <title>Home - Restuarant | Canvas</title>
-
+    
         <style>
 
             .revo-slider-emphasis-text {
