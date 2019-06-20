@@ -269,10 +269,10 @@
                         <nav id="primary-menu" class="style-5">
 
                             <ul class="norightborder norightpadding norightmargin">
-                                <li class="current"><a href="#"><div><i class="icon-home2"></i>Home</div></a>
+                                <li class="current"><a href="<?php echo site_url("/");?>"><div><i class="icon-home2"></i>Home</div></a>
                                 </li>
                                 <li><a href="#"><div><i class="icon-file-alt"></i>About Us</div></a></li>
-                                <li><a href="#"><div><i class="icon-picture"></i>Gallery</div></a></li>
+                                <li><a href="<?php echo site_url("lookbook");?>"><div><i class="icon-picture"></i>Gallery</div></a></li>
                                 <li><a href="#"><div><i class="icon-th"></i>Styles</div></a></li>
                                 <li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
                                 <li><a href="#"><div><i class="icon-pencil2"></i>Your Orders</div></a></li>
@@ -447,9 +447,9 @@
                                     <h4>Links</h4>
 
                                     <ul>
-                                        <li><a href="">Home</a></li>
+                                        <li><a href="<?php echo site_url("/");?>">Home</a></li>
                                         <li><a href="">About Us</a></li>
-                                        <li><a href="">Gallery</a></li>
+                                        <li><a href="<?php echo site_url("lookbook");?>">Gallery</a></li>
                                         <li><a href="">Styles</a></li>
                                         <li><a href="">Reviews</a></li>
                                         <li><a href="">Your Orders</a></li>

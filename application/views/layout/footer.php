@@ -39,9 +39,9 @@
                         <h4>Links</h4>
 
                         <ul>
-                            <li><a href="">Home</a></li>
+                            <li><a href="<?php echo site_url("/");?>">Home</a></li>
                             <li><a href="">About Us</a></li>
-                            <li><a href="">Gallery</a></li>
+                            <li><a href="<?php echo site_url("lookbook");?>">Gallery</a></li>
                             <li><a href="">Styles</a></li>
                             <li><a href="">Reviews</a></li>
                             <li><a href="">Your Orders</a></li>

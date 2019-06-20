@@ -410,8 +410,7 @@ class Shop extends CI_Controller {
     }
 
     public function lookbook() {
-        $data['active_block'] = 'mens';
-        $this->load->view('Pages/lookbook', $data);
+        $this->load->view('Pages/lookbook_style');
     }
 
     public function lookbook_style($styleid) {
