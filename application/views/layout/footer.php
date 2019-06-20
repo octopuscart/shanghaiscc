@@ -40,7 +40,7 @@
 
                         <ul>
                             <li><a href="<?php echo site_url("/");?>">Home</a></li>
-                            <li><a href="">About Us</a></li>
+                            <li><a href="<?php echo site_url("aboutus");?>">About Us</a></li>
                             <li><a href="<?php echo site_url("lookbook");?>">Gallery</a></li>
                             <li><a href="">Styles</a></li>
                             <li><a href="">Reviews</a></li>

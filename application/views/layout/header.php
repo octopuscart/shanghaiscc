@@ -231,7 +231,7 @@
                             <ul class="norightborder norightpadding norightmargin">
                                 <li class="current"><a href="<?php echo site_url("/");?>"><div><i class="icon-home2"></i>Home</div></a>
                                 </li>
-                                <li><a href="#"><div><i class="icon-file-alt"></i>About Us</div></a></li>
+                                <li><a href="<?php echo site_url("aboutus");?>"><div><i class="icon-file-alt"></i>About Us</div></a></li>
                                 <li><a href="<?php echo site_url("lookbook");?>"><div><i class="icon-picture"></i>Gallery</div></a></li>
                                 <li><a href="#"><div><i class="icon-th"></i>Styles</div></a></li>
                                 <li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
