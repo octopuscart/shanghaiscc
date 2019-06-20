@@ -444,31 +444,33 @@
                                     <div style="background: url('<?php echo base_url(); ?>assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                         <address>
                                             <strong>Location:</strong><br>
-                                            	Shop 35, G/F, Far East Mansion,<br/> 5-6 Middle Road,<br/> Tsim Sha Tsui, Kowloon, Hong Kong<br/> (Near Sheraton Hotel)
+                                            Shop 35, G/F, Far East Mansion,<br/> 5-6 Middle Road,<br/> Tsim Sha Tsui, Kowloon, Hong Kong<br/> (Near Sheraton Hotel)
                                         </address>
-                                        <abbr title="Phone Number"><strong>Phone:</strong></abbr>+(852) 2739 6165<br>
-                                  
-                                        <abbr title="Email Address"><strong>Email:</strong></abbr> parvez@shanghaistailor.com
+                                         <address>
+                                       
+                                        香港九龍尖沙咀中間道5-6號遠東大厦商場地下35號（喜来登酒店及停车场对面）
+                                        </address>
+                                        
                                     </div>
 
                                 </div>
 
                             </div>
 
-                            <div class="col_one_third">
+                            <div class="col_one_third" style="    padding-left: 45px;">
 
                                 <div class="widget widget_links clearfix">
 
-                                    <h4>Blogroll</h4>
+                                    <h4>Links</h4>
 
                                     <ul>
-                                        <li><a href="http://codex.wordpress.org/">Documentation</a></li>
-                                        <li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-                                        <li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-                                        <li><a href="http://wordpress.org/support/">Support Forums</a></li>
-                                        <li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-                                        <li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-                                        <li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+                                        <li><a href="">Home</a></li>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="">Gallery</a></li>
+                                        <li><a href="">Styles</a></li>
+                                        <li><a href="">Reviews</a></li>
+                                        <li><a href="">Your Orders</a></li>
+                                        <li><a href="">Contact</a></li>
                                     </ul>
 
                                 </div>
@@ -478,41 +480,34 @@
                             <div class="col_one_third col_last">
 
                                 <div class="widget clearfix">
-                                    <h4>Recent Posts</h4>
+                                    <h4>Contact Us</h4>
 
                                     <div id="post-list-footer">
                                         <div class="spost clearfix">
                                             <div class="entry-c">
                                                 <div class="entry-title">
-                                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
+                                                    <h4><i class="icon-phone" style="    font-size: 29px;
+                                                           margin-top: -11px;    margin-right: 5px;
+                                                           float: left;"></i> <a href="tel:+(852) 2739 6165">+(852) 2739 6165</a></h4>
                                                 </div>
-                                                <ul class="entry-meta">
-                                                    <li>10th July 2014</li>
-                                                </ul>
+
                                             </div>
                                         </div>
-
                                         <div class="spost clearfix">
                                             <div class="entry-c">
                                                 <div class="entry-title">
-                                                    <h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
+                                                    <h4><i class="icon-email3" style="    font-size: 29px;
+                                                           /* line-height: 26px; */
+                                                           margin-top: -11px;    margin-right: 5px;
+                                                           float: left;"></i> <a href="email:parvez@shanghaistailor.com">parvez@shanghaistailor.com</a></h4>
                                                 </div>
-                                                <ul class="entry-meta">
-                                                    <li>10th July 2014</li>
-                                                </ul>
+
                                             </div>
                                         </div>
 
-                                        <div class="spost clearfix">
-                                            <div class="entry-c">
-                                                <div class="entry-title">
-                                                    <h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-                                                </div>
-                                                <ul class="entry-meta">
-                                                    <li>10th July 2014</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+
+
+
                                     </div>
                                 </div>
 
@@ -522,28 +517,12 @@
 
                         <div class="col_one_third col_last">
 
-                            <div class="widget clearfix" style="margin-bottom: -20px;">
 
-                                <div class="row">
-
-                                    <div class="col-lg-6 bottommargin-sm">
-                                        <div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-                                        <h5 class="nobottommargin">Total Downloads</h5>
-                                    </div>
-
-                                    <div class="col-lg-6 bottommargin-sm">
-                                        <div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-                                        <h5 class="nobottommargin">Clients</h5>
-                                    </div>
-
-                                </div>
-
-                            </div>
 
                             <div class="widget subscribe-widget clearfix">
-                                <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+                                <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers :</h5>
                                 <div class="widget-subscribe-form-result"></div>
-                                <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin" novalidate="novalidate">
+                                <form id="widget-subscribe-form"  role="form" method="post" class="nobottommargin" novalidate="novalidate">
                                     <div class="input-group divcenter">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="icon-email2"></i></div>
@@ -560,20 +539,40 @@
 
                                 <div class="row">
 
-                                    <div class="col-lg-6 clearfix bottommargin-sm">
-                                        <a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+                                    <div class="col_last tright">
+                                        <div class="fright clearfix">
+                                            <a href="#" class="social-icon si-small si-borderless si-facebook">
+                                                <i class="icon-facebook"></i>
+                                                <i class="icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                                <i class="icon-twitter"></i>
+                                                <i class="icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#" class="social-icon si-small si-borderless si-instagram">
+                                                <i class="icon-instagram"></i>
+                                                <i class="icon-instagram"></i>
+                                            </a>
+
+                                            <a href="#" class="social-icon si-small si-borderless si-pinterest">
+                                                <i class="icon-pinterest"></i>
+                                                <i class="icon-pinterest"></i>
+                                            </a>
+
+
+
+                                            <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                                                <i class="icon-linkedin"></i>
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </div>
+
+                                        <div class="clear"></div>
+
                                     </div>
-                                    <div class="col-lg-6 clearfix">
-                                        <a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-                                            <i class="icon-rss"></i>
-                                            <i class="icon-rss"></i>
-                                        </a>
-                                        <a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-                                    </div>
+
 
                                 </div>
 
@@ -592,43 +591,10 @@
                     <div class="container clearfix">
 
                         <div class="col_half">
-                            Copyrights © <?php echo date("Y");?> All Rights Reserved by Shanghai's tailor.<br>
+                            Copyrights © <?php echo date("Y"); ?> All Rights Reserved by Shanghai's tailor.<br>
                             <div class="copyright-links"><a href="https://www.manningcompany.com/" target="_blank">From The House Of Manning Company Tailor</a></div>
                         </div>
 
-                        <div class="col_half col_last tright">
-                            <div class="fright clearfix">
-                                <a href="#" class="social-icon si-small si-borderless si-facebook">
-                                    <i class="icon-facebook"></i>
-                                    <i class="icon-facebook"></i>
-                                </a>
-
-                                <a href="#" class="social-icon si-small si-borderless si-twitter">
-                                    <i class="icon-twitter"></i>
-                                    <i class="icon-twitter"></i>
-                                </a>
-
-                                <a href="#" class="social-icon si-small si-borderless si-instagram">
-                                    <i class="icon-instagram"></i>
-                                    <i class="icon-instagram"></i>
-                                </a>
-
-                                <a href="#" class="social-icon si-small si-borderless si-pinterest">
-                                    <i class="icon-pinterest"></i>
-                                    <i class="icon-pinterest"></i>
-                                </a>
-
-                              
-
-                                <a href="#" class="social-icon si-small si-borderless si-linkedin">
-                                    <i class="icon-linkedin"></i>
-                                    <i class="icon-linkedin"></i>
-                                </a>
-                            </div>
-
-                            <div class="clear"></div>
-
-                        </div>
 
                     </div>
 
