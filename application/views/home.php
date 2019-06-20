@@ -38,7 +38,7 @@
 
         <!-- Document Title
         ============================================= -->
-    
+
         <style>
 
             .revo-slider-emphasis-text {
@@ -374,7 +374,7 @@
                         </div>
                     </div>
 
-                    <div class="section parallax dark nobottommargin" style="background-image: url('images/services/home-testi-bg.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+                    <div class="section parallax dark nobottommargin" style="background-image: url('<?php echo base_url(); ?>assets/images/clientsbackground.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
 
                         <div class="heading-block center">
                             <h3>What Clients Say?</h3>
@@ -452,13 +452,13 @@
                                     <div style="background: url('<?php echo base_url(); ?>assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                         <address>
                                             <strong>Location:</strong><br>
-                                            Shop 35, G/F, Far East Mansion,<br/> 5-6 Middle Road,<br/> Tsim Sha Tsui, Kowloon, Hong Kong<br/> (Near Sheraton Hotel)
-                                        </address>
-                                         <address>
+Shop 22B, G/F,<br/>
+Hankow Centre,<br/>
+5-15 Hankow Road<br/> 
+Tsim Sha Tsui,<br/>
+Kowloon Hong Kong                                        </address>
                                        
-                                        香港九龍尖沙咀中間道5-6號遠東大厦商場地下35號（喜来登酒店及停车场对面）
-                                        </address>
-                                        
+
                                     </div>
 
                                 </div>
@@ -496,7 +496,7 @@
                                                 <div class="entry-title">
                                                     <h4><i class="icon-phone" style="    font-size: 29px;
                                                            margin-top: -11px;    margin-right: 5px;
-                                                           float: left;"></i> <a href="tel:+(852) 2739 6165">+(852) 2739 6165</a></h4>
+                                                           float: left;"></i> <a href="tel:+(852) 2739 6165">+(852) 2111 1955</a></h4>
                                                 </div>
 
                                             </div>
@@ -507,7 +507,7 @@
                                                     <h4><i class="icon-email3" style="    font-size: 29px;
                                                            /* line-height: 26px; */
                                                            margin-top: -11px;    margin-right: 5px;
-                                                           float: left;"></i> <a href="email:parvez@shanghaistailor.com">parvez@shanghaistailor.com</a></h4>
+                                                           float: left;"></i> <a href="email:info@manningcompany.com">info@manningcompany.com</a></h4>
                                                 </div>
 
                                             </div>
@@ -592,6 +592,28 @@
 
                 </div>
 
+
+
+
+                <div class="modal fade" id="appointmentmodel" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+
+
+                            <div class="modal-body" style="padding: 0px;">
+                                <img src="assets/images/country/">
+                            </div>
+
+
+
+
+
+
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+
                 <!-- Copyrights
                 ============================================= -->
                 <div id="copyrights">
@@ -644,6 +666,8 @@
             tpj.noConflict();
 
             tpj(document).ready(function () {
+
+              jQuery("#appointmentmodel").modal("show");
 
                 var apiRevoSlider = tpj('#rev_slider_irestaurant').show().revolution(
                         {
