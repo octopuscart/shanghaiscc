@@ -220,8 +220,8 @@
                         <!-- Logo
                         ============================================= -->
                         <div id="logo">
-                            <a href="index.html" class="standard-logo" data-dark-logo="<?php echo base_url(); ?>assets/images/logo.png"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Canvas Logo"></a>
-                            <a href="index.html" class="retina-logo" data-dark-logo="<?php echo base_url(); ?>assets/images/logo.png"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Canvas Logo"></a>
+                            <a href="<?php echo site_url("/");?>" class="standard-logo" data-dark-logo="<?php echo base_url(); ?>assets/images/logo.png"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Canvas Logo"></a>
+                            <a href="<?php echo site_url("/");?>" class="retina-logo" data-dark-logo="<?php echo base_url(); ?>assets/images/logo.png"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Canvas Logo"></a>
                         </div><!-- #logo end -->
 
                         <!-- Primary Navigation
@@ -229,7 +229,7 @@
                         <nav id="primary-menu" class="dark">
 
                             <ul class="norightborder norightpadding norightmargin">
-                                <li class="current"><a href="#"><div><i class="icon-home2"></i>Home</div></a>
+                                <li class="current"><a href="<?php echo site_url("/");?>"><div><i class="icon-home2"></i>Home</div></a>
                                 </li>
                                 <li><a href="#"><div><i class="icon-file-alt"></i>About Us</div></a></li>
                                 <li><a href="<?php echo site_url("lookbook");?>"><div><i class="icon-picture"></i>Gallery</div></a></li>
