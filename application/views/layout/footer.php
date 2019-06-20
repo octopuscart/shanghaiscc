@@ -22,7 +22,7 @@
                                 Hankow Centre,<br/>
                                 5-15 Hankow Road<br/> 
                                 Tsim Sha Tsui,<br/>
-                                Kowloon Hong Kong                                        
+                                Kowloon, Hong Kong                                        
                             </address>
 
 
