@@ -34,8 +34,6 @@
         <!--web fonts-->
         <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
         <!--theme css-->
@@ -230,28 +228,16 @@
                         ============================================= -->
                         <nav id="primary-menu" class="dark">
 
-                            <ul>
-                                <li class="current"><a href="index.html"><div>Home</div></a>
-
+                            <ul class="norightborder norightpadding norightmargin">
+                                <li class="current"><a href="#"><div><i class="icon-home2"></i>Home</div></a>
                                 </li>
-                                <li><a href="#"><div>Features</div></a>
+                                <li><a href="#"><div><i class="icon-file-alt"></i>About Us</div></a></li>
+                                <li><a href="#"><div><i class="icon-picture"></i>Gallery</div></a></li>
+                                <li><a href="#"><div><i class="icon-th"></i>Styles</div></a></li>
+                                <li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
+                                <li><a href="#"><div><i class="icon-pencil2"></i>Your Orders</div></a></li>
+                                <li><a href="<?php echo site_url("contact-us");?>"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
 
-                                </li>
-                                <li class="mega-menu"><a href="#"><div>Pages</div></a>
-
-                                </li>
-                                <li class="mega-menu"><a href="#"><div>Portfolio</div></a>
-
-                                </li>
-                                <li class="mega-menu"><a href="#"><div>Blog</div></a>
-
-                                </li>
-                                <li><a href="shop.html"><div>Shop</div></a>
-
-                                </li>
-                                <li class="mega-menu"><a href="#"><div>Shortcodes</div></a>
-
-                                </li>
                             </ul>
 
 

@@ -12,199 +12,145 @@ $this->load->view('layout/header');
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30">
                 <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">Contact Information</h3>
-                <p class="m_bottom_35 heading_2 t_align_c">Contact <?php echo site_name; ?>
-                </p>		
+
                 <div class="row">
-                    <ul class="col-lg-7 col-md-7 col-sm-7 fw_light w_break m_bottom_45 m_xs_bottom_30">
-                        <li class="m_bottom_8">
-                            <a href="tel:85223672676"> 
-                                <div class="d_inline_m icon_wrap_size_1 color_dark  circle m_right_10">
-                                    <i class="icon-phone-1"></i>
+
+                    <div class="col-md-6">
+                        <h4 style="    margin-bottom: 11px;">
+                            <i class="icon-location" style="    font-size: 29px;
+                               margin-right: 5px;    margin-top: -6px;
+                               float: left;"></i> <strong>Location</strong>
+                        </h4>
+                        <address style="font-size: 15px;    margin-right: 11px;    margin-left: 29px;">
+
+                            Shop 22B, G/F,
+                            Hankow Centre,<br/>
+                            5-15 Hankow Road
+                            Tsim Sha Tsui,<br/>
+                            Kowloon Hong Kong                                        
+                        </address>
+
+
+                        <div class="spost clearfix">
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h4><i class="icon-phone" style="    font-size: 29px;
+                                           margin-top: -11px;    margin-right: 5px;
+                                           float: left;"></i> <a href="tel:+(852) 2739 6165">+(852) 2111 1955</a></h4>
                                 </div>
-                                +(852) 2367 2676<br/> 
-                            </a>
-                        </li>
 
-                        <li class="m_bottom_8">
-
-                            <a href="https://api.whatsapp.com/send?phone=85298163280">
-                                <i class="fa fa-whatsapp " style="    font-size: 23px;color:black;
-                                   margin-right: 12px;"></i>
-
-
-
-                                +(852) 9816 3280<br/> 
-                            </a>
-                        </li>
-
-
-
-
-
-                        <li class="m_bottom_8">
-                            <div class="d_inline_m icon_wrap_size_1 color_dark  circle m_right_10">
-                                <i class="icon-mail-alt"></i>
                             </div>
+                        </div>
+                        <div class="spost clearfix">
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h4><i class="icon-email3" style="    font-size: 29px;
+                                           /* line-height: 26px; */
+                                           margin-top: -11px;    margin-right: 5px;
+                                           float: left;"></i> <a href="email:info@manningcompany.com">info@manningcompany.com</a></h4>
+                                </div>
 
-                            <a href="mailto: enquire@hongkongbespoketailors.com" class="color_dark  _hover"> enquire@hongkongbespoketailors.com</a><br/>
-
-
-                        </li>
-
-                    </ul>
-                    <ul class="col-lg-5 col-md-5 col-sm-5 m_xs_bottom_30 vr_list_type_5">
-
-                        <li class="m_bottom_8 fw_light">
-                            <div class="f_left icon_wrap_size_1 color_dark  circle">
-                                <i class="icon-location"></i>
                             </div>
-                            Room No. 603, <br/>6/F, Tower A, <br/>New Mandarin Plaza, </br>
-                            14 Science Museum Road, T.S.T, Hong Kong
+                        </div>
 
-                        </li>
+                        <div class="spost clearfix">
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class=" clearfix">
+                                        <a href="#" class="social-icon si-small si-borderless si-facebook">
+                                            <i class="icon-facebook"></i>
+                                            <i class="icon-facebook"></i>
+                                        </a>
+
+                                        <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                            <i class="icon-twitter"></i>
+                                            <i class="icon-twitter"></i>
+                                        </a>
+
+                                        <a href="#" class="social-icon si-small si-borderless si-instagram">
+                                            <i class="icon-instagram"></i>
+                                            <i class="icon-instagram"></i>
+                                        </a>
+
+                                        <a href="#" class="social-icon si-small si-borderless si-pinterest">
+                                            <i class="icon-pinterest"></i>
+                                            <i class="icon-pinterest"></i>
+                                        </a>
 
 
 
-                    </ul>
+                                        <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                                            <i class="icon-linkedin"></i>
+                                            <i class="icon-linkedin"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="clear"></div></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
 
                 </div>
-                <h5 class="color_dark m_bottom_10 fw_light ">Opening Hours</h5>
-                <ul class="hr_list social_icons">
-                    <!--tooltip_container class is required-->
-                    <li class="m_right_ fw_light m_bottom_10 tooltip_container">
-                    <li class="m_bottom_8 color_dark fw_light font_size_14">
-                        <ul class='row' style="width: 300px;">
-                            <div class='m_bottom_8 col-md-12'>
-                                <div class="d_inline_m icon_wrap_size_1 color_dark  circle m_right_10">
-                                    <i class="icon-clock"></i>
-                                </div>
-                                <span class='font_size_14'>Monday to Saturday</span><br/>
-                                <span style='margin-left: 35px'>09:00 AM to 09:00 PM</span>
-                            </div>
 
-                        </ul>
-
-                    </li>
-
-                    </li>
-
-
-
-
-                </ul>
-                <h5 class="color_dark m_bottom_20 fw_light">Stay Connected</h5>
-                <ul class="hr_list social_icons">
-                    <!--tooltip_container class is required-->
-                    <li class="m_right_15 m_bottom_15 tooltip_container">
-                        <!--tooltip-->
-                        <span class="d_block r_corners color_default tooltip fs_small tr_all">Follow Us on Facebook</span>
-                        <a href="https://www.facebook.com/Hong-Kong-Bespoke-Tailors-1270171433140371/?modal=admin_todo_tour" target="_blank" class="d_block facebook facebook_static_color icon_wrap_size_2 circle color_grey_light_2">
-                            <i class="icon-facebook fs_small"></i>
-                        </a>
-                    </li>
-                    <li class="m_right_15 m_bottom_15 tooltip_container">
-                        <!--tooltip-->
-                        <span class="d_block r_corners color_default tooltip fs_small tr_all">Follow Us on Twitter</span>
-                        <a href="https://twitter.com/1BespokeTailors" class="d_block twitter twitter_static_color icon_wrap_size_2 circle color_grey_light_2" target="_blank">
-                            <i class="icon-twitter fs_small"></i>
-                        </a>
-                    </li>
-                    <li class="m_right_15 m_bottom_15 tooltip_container m_sm_right_0 m_xs_right_15">
-                        <!--tooltip-->
-                        <span class="d_block r_corners color_default tooltip fs_small tr_all">Instagram</span>
-                        <a href="https://www.instagram.com/hongkongbespoketailors/" class="d_block instagram instagram_static_color icon_wrap_size_2 circle color_grey_light_2" target="_blank">
-                            <i class="icon-instagramm fs_small"></i>
-                        </a>
-                    </li>
-                    <li class="m_right_15 m_bottom_15 m_sm_right_0 tooltip_container m_xs_right_15">
-                        <!--tooltip-->
-                        <span class="d_block r_corners color_default tooltip fs_small tr_all">TripAdvisor</span>
-                        <a href="https://en.tripadvisor.com.hk/Profile/hkbespoketailors" class="d_block  youtube_static_color icon_wrap_size_2 circle color_grey_light_2" target="_blank">
-                            <i class="fa fa-tripadvisor fs_small" style="    margin-top: 7px;"></i>
-                        </a>
-                    </li>
-
-                    <li class="m_right_15 m_bottom_15 m_sm_right_0 tooltip_container m_xs_right_15">
-                        <!--tooltip-->
-                        <span class="d_block r_corners color_default tooltip fs_small tr_all">Pinterest</span>
-                        <a href="https://www.pinterest.com/hongkongbespoketailors/" class="d_block  pinterest_static_color icon_wrap_size_2 circle color_grey_light_2" target="_blank">
-                            <i class="fa fa-pinterest fs_small" style="    margin-top: 7px;"></i>
-                        </a>
-                    </li>
-
-
-
-
-
-
-
-
-
-                </ul>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30">
                 <h3 class="color_dark fw_light m_bottom_15 heading_1 t_align_c">Contact Form</h3>
-                <p class="m_bottom_35 heading_2 t_align_c">For any queries
-                </p>	
-                <?php
-                if ($checksent == 1) {
-                    ?>
+                <div class="contact-widget">
 
-                    <script>
-                        swal({
-                            title: 'Thanks',
-                            type: 'success',
-                            html: "Thanks to contact us.",
-                            timer: 5000,
-                        }).then(
-                                function () {
-                                    window.location = "<?php echo site_url("contact-us"); ?>";
-                                },
-                                function (dismiss) {
-                                    window.location = "<?php echo site_url("contact-us"); ?>";
-                                }
-                        )
-                    </script>
-                    <?php
-                }
-                ?>
-                <?php
-                if ($checksent == 2) {
-                    ?>
-                    <div class="alert_box error r_corners relative fs_medium">
-                        <b>Connection Error!</b> Unable to sent mail.
-                        <i class="icon-cancel close_alert_box tr_all translucent circle t_align_c"></i>
-                    </div><?php
-                }
-                ?>
-                <form method="post" action="#">
-                    <ul>
-                        <li class="row m_bottom_10">
-                            <div class="col-lg-6 col-md-6 col-sm-6 w_xs_full m_xs_bottom_10">
-                                <input type="text" name="full_name" placeholder="Name*" class="w_full r_corners fw_light">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 w_xs_full">
-                                <input type="text" name="contact" placeholder="Contact No.*" class="w_full r_corners fw_light" required="">
-                            </div>
-                        </li>
-                        <li class="m_bottom_10">
-                            <input type="email" name="email" placeholder="Email*" class="w_full r_corners fw_light" required="">
-                        </li>
-                        <li class="m_bottom_10">
-                            <input type="text" name="subject" placeholder="Subject" class="w_full r_corners fw_light" required="">
-                        </li>
-                        <li class="m_bottom_5">
-                            <textarea class="w_full r_corners fw_light height_3" name="message" placeholder="Message" required=""></textarea>
-                        </li>
-                        <li class="m_bottom_20">
-                            <label for="capcha" class="d_inline_m fw_light m_right_5 w_auto">Anti-spam test: 4+4=</label>
-                            <input id="capcha" type="text" name="anti_spam" class="r_corners fw_light d_inline_m w_auto">
-                        </li>
-                        <li class="m_bottom_10">
-                            <button name='sendmessage' value='sendmessage' class="button_type_5 color_dark  r_corners fs_medium tr_all m_right_10 m_sm_bottom_10">Submit</button>
-                        </li>
-                    </ul>
-                </form>
+                    <div class="contact-form-result"></div>
+
+                    <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post" novalidate="novalidate">
+
+                        <div class="form-process"></div>
+
+                        <div class="col_one_third">
+                            <label for="template-contactform-name">Name <small>*</small></label>
+                            <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required">
+                        </div>
+
+                        <div class="col_one_third">
+                            <label for="template-contactform-email">Email <small>*</small></label>
+                            <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control">
+                        </div>
+
+                        <div class="col_one_third col_last">
+                            <label for="template-contactform-phone">Phone</label>
+                            <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control">
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_two_third">
+                            <label for="template-contactform-subject">Subject <small>*</small></label>
+                            <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control">
+                        </div>
+
+                        <div class="col_one_third col_last">
+                            <label for="template-contactform-service">Services</label>
+                            <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control">
+
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_full">
+                            <label for="template-contactform-message">Message <small>*</small></label>
+                            <textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+                        </div>
+
+                        <div class="col_full hidden">
+                            <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control">
+                        </div>
+
+                        <div class="col_full">
+                            <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d black">Submit Comment</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
