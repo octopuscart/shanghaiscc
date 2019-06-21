@@ -55,22 +55,13 @@ $route['default_controller'] = 'Shop';
 $route['404_override'] = 'Shop/error404';
 $route['translate_uri_dashes'] = FALSE;
 $route['contact-us'] = 'Shop/contactus';
-$route['booking'] = 'Shop/appointment';
+$route['appointment'] = 'Shop/appointment';
 $route['subscribe'] = 'Shop/subscribe';
 $route['lookbook'] = 'Shop/lookbook';
 $route['aboutus'] = 'Shop/aboutus';
-
-
 $route['reviews'] = 'Shop/reviews';
-
 $route['faqs'] = 'Shop/faqs';
 $route['gallery'] = 'Shop/gallery';
-$route['lookbook/(:any)'] = 'Shop/lookbook_style/$1';
-$route['Products/CustomSuits'] = 'Product/ProductList/2/0';
-$route['ShopNow'] = 'Product/ProductList/2/0';
-$route['stylingTips'] = 'Shop/stylingTips';
-$route['stylingTipsTag'] = 'Shop/stylingTipsTag';
-$route['styleTips/(:any)/(:any)'] = 'Shop/styleTipsDetails/$1/$2';
 $route['sitemap\.xml'] = "Sitemap/index";
 $route['sitemap'] = "Sitemap/general";
 $route['admin'] = "Shop/locallogin";

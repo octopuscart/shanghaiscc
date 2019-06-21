@@ -87,6 +87,10 @@ class Shop extends CI_Controller {
         $this->load->view('Pages/aboutus');
     }
 
+    public function appointment() {
+        $this->load->view('Pages/appointment');
+    }
+
     public function faqs() {
         $this->load->view('Pages/faqs');
     }
@@ -161,8 +165,6 @@ class Shop extends CI_Controller {
         $this->load->view('Pages/subscribe');
     }
 
-
-
     public function lookbook() {
         $this->load->view('Pages/lookbook_style');
     }
@@ -170,13 +172,10 @@ class Shop extends CI_Controller {
     public function gallery() {
         $this->load->view('Pages/gallery');
     }
-    
+
     public function reviews() {
         $this->load->view('Pages/reviews');
     }
-    
-    
-
 
     public function stylingTips() {
         $query = $this->db->get('style_tips');
@@ -212,7 +211,7 @@ class Shop extends CI_Controller {
             $this->db->set($blogdata);
             $this->db->where('id', $style_index); //set column_name and value in which row need to update
             $this->db->update('style_tips');
-            redirect("styleTips/".$style_index."/".$title);
+            redirect("styleTips/" . $style_index . "/" . $title);
         }
 
 
