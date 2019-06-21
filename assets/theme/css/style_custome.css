@@ -78,3 +78,12 @@
     border: none;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
+
+.lookbook_thumb{
+        box-shadow: 0px 0px 34px -7px;
+            border-radius: 16px;
+}
+
+.lookbook_thumb img{
+    border-radius: 16px;
+}

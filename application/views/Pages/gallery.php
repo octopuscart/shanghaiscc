@@ -13,7 +13,6 @@ $clients = [1, 2, 3, 4, 5, 6,7,8,9,10,11,12];
 
 
 
-            <div id="page-submenu-trigger"><i class="icon-reorder"></i></div>
 
         </div>
 
@@ -26,6 +25,20 @@ $clients = [1, 2, 3, 4, 5, 6,7,8,9,10,11,12];
 
 
 <div class="section_offset" ng-controller="lookBookController">
+    
+            <div class="container clearfix m_t_30">
+
+            <div class="col_full">
+
+                <div class="heading-block center nobottomborder">
+                    <h2 class="m_t_30">The Gallery Of Our Worldwide Clients</h2>
+                    <span>Shanghai's tailor always provides something new in fashion and fabrics quality, which delights it's clients.</span>
+                </div>
+
+
+            </div>
+
+        </div>
     <div class="container">
         <div class="content">
             <!--contact-->
