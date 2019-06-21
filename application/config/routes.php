@@ -60,6 +60,7 @@ $route['subscribe'] = 'Shop/subscribe';
 $route['lookbook'] = 'Shop/lookbook';
 $route['aboutus'] = 'Shop/aboutus';
 $route['faqs'] = 'Shop/faqs';
+$route['gallery'] = 'Shop/gallery';
 $route['lookbook/(:any)'] = 'Shop/lookbook_style/$1';
 $route['Products/CustomSuits'] = 'Product/ProductList/2/0';
 $route['ShopNow'] = 'Product/ProductList/2/0';

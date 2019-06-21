@@ -31,17 +31,9 @@ $this->load->view('layout/header');
                         </address>
 
 
-                        <div class="spost clearfix">
-                            <div class="entry-c">
-                                <div class="entry-title">
-                                    <h4><i class="icon-phone" style="    font-size: 29px;
-                                           margin-top: -11px;    margin-right: 5px;
-                                           float: left;"></i> <a href="tel:+(852) 2739 6165">+(852) 2111 1955</a></h4>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="spost clearfix">
+
+                        <div class="spost clearfix" style="    margin-top: 44px;">
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h4><i class="icon-email3" style="    font-size: 29px;
@@ -52,6 +44,44 @@ $this->load->view('layout/header');
 
                             </div>
                         </div>
+
+
+
+                    </div>
+
+                    <div class="col-md-6">
+
+
+
+                        <div class="spost clearfix">
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h4>
+                                        <div class="footer_icon_container"> <i class="icon-phone3 footer_icon" style="    font-size: 44px;"></i> </div>
+                                        <div>
+                                            <a href="tel:+852 2739 6165" >+(852) 2111 1955</a><br/>
+                                            <a href="tel:+852 3427 9296" >+(852) 3427 9296</a><br/>
+                                            <a href="tel:+852 2375 3897" >+(852) 2375 3897</a>
+                                        </div>
+                                    </h4></div>
+
+                            </div>
+                        </div>
+                        <div class="spost clearfix" >
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h4>
+
+
+                                        <div class="footer_icon_container"> <i class="fa fa-whatsapp footer_icon" style="    font-size: 20px;"></i>  </div>
+                                        <div class="float_left  m_l_10">
+                                            <a href="https://api.whatsapp.com/send?phone=85293805471">+(852) 9380 5471 </a>
+                                        </div>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <div class="spost clearfix">
                             <div class="entry-c">
@@ -91,6 +121,22 @@ $this->load->view('layout/header');
                         </div>
 
                     </div>
+                    <div class="col_full nobottommargin">
+
+                        <div class="fancy-title title-border" style="    margin-bottom: 19px;
+                             margin-top: 30px;">
+                            <h4>Opening Hours</h4>
+                        </div>
+
+
+                        <ul class="iconlist nobottommargin">
+                            <li><i class="icon-time color"></i> <strong class="timeing_open_ele">Mondays-Saturdays:</strong> 09:00AM to 08:30PM</li>
+                            <li><i class="icon-time text-danger"></i> <strong class="timeing_open_ele">Sundays:</strong> 10:00am – 06:00 pm </li>
+                        </ul>
+
+                    </div>
+
+
 
 
                 </div>
@@ -146,7 +192,7 @@ $this->load->view('layout/header');
                         </div>
 
                         <div class="col_full">
-                            <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d black">Submit Comment</button>
+                            <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d ">Submit Comment</button>
                         </div>
 
                     </form>
