@@ -131,7 +131,7 @@ $this->load->view('layout/header');
 
                         <ul class="iconlist nobottommargin">
                             <li><i class="icon-time color"></i> <strong class="timeing_open_ele">Mondays-Saturdays:</strong> 09:00AM to 08:30PM</li>
-                            <li><i class="icon-time text-danger"></i> <strong class="timeing_open_ele">Sundays:</strong> 10:00am – 06:00 pm </li>
+                            <li><i class="icon-time text-danger"></i> <strong class="timeing_open_ele">Sundays:</strong> 10:00am to 06:00 pm </li>
                         </ul>
 
                     </div>
