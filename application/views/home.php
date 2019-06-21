@@ -497,7 +497,7 @@
                                 <p>Every detail is carefully constructed using precision technology and state-of-the-art machinery.   
                                     <br/>The best men's suits are tailored from the best cloth - this means pure merino wool fabric, <br/>woven in the traditional mills of Italy and England.    </p>
 
-                                <a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">View Recipes</a>
+                                <a href="https://www.manningcompany.com/hong-kong-tailor-made-suit-fabrics.html" class="button button-border button-large button-rounded topmargin-sm noleftmargin" target="_blank">View Fabrics</a>
 
                             </div>
 
