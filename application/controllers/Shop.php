@@ -170,6 +170,12 @@ class Shop extends CI_Controller {
     public function gallery() {
         $this->load->view('Pages/gallery');
     }
+    
+    public function reviews() {
+        $this->load->view('Pages/reviews');
+    }
+    
+    
 
 
     public function stylingTips() {

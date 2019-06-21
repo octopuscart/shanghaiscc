@@ -87,3 +87,9 @@
 .lookbook_thumb img{
     border-radius: 16px;
 }
+
+.review_col{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: -6px 7px 30px -28px #000;
+}

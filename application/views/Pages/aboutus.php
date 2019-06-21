@@ -62,9 +62,6 @@ $this->load->view('layout/header');
 
             </div>
 
-
-
-
         </div>
 
         <div class="section footer-stick">
