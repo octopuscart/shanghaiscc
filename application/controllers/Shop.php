@@ -153,7 +153,7 @@ Kowloon, Hong Kong",
                 $this->email->from(email_sender, $sendername);
                 $this->email->reply_to(email_bcc, $sendername);
                 $this->email->to($this->input->post('email'));
-                $this->email->cc("jason@lordscustomtailors.com");
+
                 $this->email->bcc(email_bcc);
                 $subjectt = email_sender_name . " Appointment : " . $appointment['select_date'] . " (" . $appointment['select_time'] . ")";
                 $orderlog = array(
@@ -170,7 +170,21 @@ Kowloon, Hong Kong",
                 $appointment['appointment'] = $appointment;
 
 
-                echo $htmlsmessage = $this->load->view('Email/appointment', $appointment, true);
+                $htmlsmessage = $this->load->view('Email/appointment', $appointment, true);
+                if (REPORT_MODE == 1) {
+                    $this->email->message($htmlsmessage);
+                    $this->email->print_debugger();
+                    $send = $this->email->send();
+                    if ($send) {
+                        redirect('Shop/appointment');
+                        echo json_encode("send");
+                    } else {
+                        $error = $this->email->print_debugger(array('headers'));
+                        echo json_encode($error);
+                    }
+                } else {
+                    echo $htmlsmessage;
+                }
             }
         }
         $this->load->view('Pages/appointment', $data);
