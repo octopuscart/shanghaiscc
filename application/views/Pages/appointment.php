@@ -299,7 +299,7 @@ function createModel($value, $dtvalue) {
      background-size: cover;  
      background-repeat: no-repeat;
      background-position: center;
-     height: 200px;
+     height: auto;
      padding: 10px;color:black;
      margin-bottom: 15px;">
 
