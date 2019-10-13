@@ -170,21 +170,7 @@ Kowloon, Hong Kong",
                 $appointment['appointment'] = $appointment;
 
 
-                $htmlsmessage = $this->load->view('Email/appointment', $appointment, true);
-                if (REPORT_MODE == 1) {
-                    $this->email->message($htmlsmessage);
-                    $this->email->print_debugger();
-                    $send = $this->email->send();
-                    if ($send) {
-                        redirect('Shop/appointment');
-                        echo json_encode("send");
-                    } else {
-                        $error = $this->email->print_debugger(array('headers'));
-                        echo json_encode($error);
-                    }
-                } else {
-                    echo $htmlsmessage;
-                }
+                echo $htmlsmessage = $this->load->view('Email/appointment', $appointment, true);
             }
         }
         $this->load->view('Pages/appointment', $data);

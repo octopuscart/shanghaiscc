@@ -130,7 +130,7 @@
                     ?>
                     <tr>
                         <th style="background: lightgray;text-align: right;width:200px;padding-right: 10px;">State/City</th>
-                        <td><?php echo $appointment['city_state']; ?> (<?php echo $appointment['city_days']; ?>)</td>
+                        <td><?php echo $appointment['city_state']; ?> </td>
                     </tr>
                     <tr>
                         <th style="background: lightgray;text-align: right;width:200px;padding-right: 10px;">Hotel Name</th>
@@ -153,10 +153,7 @@
                     <th style="background: lightgray;text-align: right;width:200px;padding-right: 10px;">Time</th>
                     <td><?php echo $appointment['select_time']; ?></td>
                 </tr>
-                <tr>
-                    <th style="background: lightgray;text-align: right;width:200px;padding-right: 10px;">Remark</th>
-                    <td style="width: 250px"><?php echo $appointment['remark']; ?></td>
-                </tr>
+               
 
 
 
