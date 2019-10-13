@@ -187,7 +187,7 @@ Kowloon, Hong Kong",
                 }
             }
         }
-        $this->load->view('pages/appointment', $data);
+        $this->load->view('Pages/appointment', $data);
     }
 
     public function faqs() {
