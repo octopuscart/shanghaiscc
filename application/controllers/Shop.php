@@ -88,7 +88,106 @@ class Shop extends CI_Controller {
     }
 
     public function appointment() {
-        $this->load->view('Pages/appointment');
+
+
+        $data['timeslot'] = [];
+
+        $appointmentdetailslocal = [array(
+        "type" => "local",
+        "id" => "au0_app",
+        "country" => "Hong Kong",
+        "city_state" => "Kowloon,  T. S. T.",
+        "hotel" => "SHOWROOM",
+        "address" => "2/F, Unit D, Far East Mansion,<br/>
+5-6 Middle Road, Tsim Sha Tsui, <br/>
+Kowloon, Hong Kong",
+        "days" => "",
+        "start_date" => "",
+        "end_date" => "",
+        "contact_no" => " +(852) 2723 9716",
+        "dates" => [
+            array("date" => date("Y-m-d"), "timing1" => "09:00 AM", "timing2" => "09:00 PM"),
+            array("date" => "Sun", "timing1" => "09:00 AM", "timing2" => "07:00 PM"),
+        ]
+            ),];
+
+        $data['appointmentdetailslocal'] = $appointmentdetailslocal;
+
+
+
+
+        $usasappointment = $this->Product_model->AppointmentDataAll();
+
+        $data['appointmentdatausa'] = $usasappointment;
+        $data['appointmentdata'] = [];
+
+
+        if (isset($_POST['submit'])) {
+            $appointment = array(
+                "country" => $this->input->post('country'),
+                "city_state" => $this->input->post('city_state'),
+                "hotel" => $this->input->post('hotel'),
+                "address" => $this->input->post('address'),
+                'last_name' => $this->input->post('last_name'),
+                'first_name' => $this->input->post('first_name'),
+                'email' => $this->input->post('email'),
+                'contact_no' => $this->input->post('contact_no'),
+                'select_time' => $this->input->post('select_time'),
+                'select_date' => $this->input->post('select_date'),
+                'no_of_person' => $this->input->post('no_of_person'),
+                'referral' => $this->input->post('referral'),
+                'datetime' => date("Y-m-d H:i:s a"),
+                'appointment_type' => "Local",
+            );
+
+            $this->db->insert('appointment_list', $appointment);
+            $appointment['contact_no2'] = $this->input->post('contact_no2');
+
+
+            $emailsender = email_sender;
+            $sendername = email_sender_name;
+            $email_bcc = email_bcc;
+            $sendernameeq = $this->input->post('last_name') . " " . $this->input->post('first_name');
+            if ($this->input->post('email')) {
+                $this->email->set_newline("\r\n");
+                $this->email->from(email_sender, $sendername);
+                $this->email->reply_to(email_bcc, $sendername);
+                $this->email->to($this->input->post('email'));
+                $this->email->cc("jason@lordscustomtailors.com");
+                $this->email->bcc(email_bcc);
+                $subjectt = email_sender_name . " Appointment : " . $appointment['select_date'] . " (" . $appointment['select_time'] . ")";
+                $orderlog = array(
+                    'log_type' => 'Appointment',
+                    'log_datetime' => date('Y-m-d H:i:s'),
+                    'user_id' => 'Appointment User',
+                    'log_detail' => $sendernameeq . "  " . $subjectt
+                );
+                $this->db->insert('system_log', $orderlog);
+
+                $subject = $subjectt;
+                $this->email->subject($subject);
+
+                $appointment['appointment'] = $appointment;
+
+
+                $htmlsmessage = $this->load->view('Email/appointment', $appointment, true);
+                if (REPORT_MODE == 1) {
+                    $this->email->message($htmlsmessage);
+                    $this->email->print_debugger();
+                    $send = $this->email->send();
+                    if ($send) {
+                        redirect('Shop/appointment');
+                        echo json_encode("send");
+                    } else {
+                        $error = $this->email->print_debugger(array('headers'));
+                        echo json_encode($error);
+                    }
+                } else {
+                    echo $htmlsmessage;
+                }
+            }
+        }
+        $this->load->view('pages/appointment', $data);
     }
 
     public function faqs() {
