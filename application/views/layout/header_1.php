@@ -15,7 +15,7 @@ $menuitems = [
         "link" => site_url("gallery")
     ),
     array(
-        "title" => "Book An Appointment",
+        "title" => "Travel/Trunk Shows",
         "icon" => "icon-pencil2",
         "link" => site_url("appointment")
     ),
