@@ -310,7 +310,7 @@ function createModel($value, $dtvalue) {
             <span style="color:black;">We are ready to schedule the available appointment for you in your city.</span>
             <p style="    margin-top: 15px;
                font-size: 20px;">
-                Contact Call/WhatsApp Australia Mobile no. +61 (4) 3067 6386<br/>
+                Contact Call/WhatsApp Australia Mobile No. <span style="font-weight: bold;color:red"> +61 (4) 3067 6386</span><br/>
 
             </p>
         </div>
