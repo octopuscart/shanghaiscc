@@ -285,7 +285,7 @@ function createModel($value, $dtvalue) {
 
         <div class="container clearfix">
 
-            <div class="menu-title">Book An Appointment</div>
+            <div class="menu-title">Australia Travel/Trunk Shows</div>
 
 
 
@@ -310,7 +310,7 @@ function createModel($value, $dtvalue) {
             <span style="color:black;">We are ready to schedule the available appointment for you in your city.</span>
             <p style="    margin-top: 15px;
                font-size: 20px;">
-                Contact Call/WhatsApp U.S.A Mobile no. +(1) 415-309-6758.<br/>
+                Contact Call/WhatsApp Australia Mobile no. +61 (4) 3067 6386<br/>
 
             </p>
         </div>

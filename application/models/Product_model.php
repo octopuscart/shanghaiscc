@@ -791,7 +791,7 @@ where pa.product_id in ($productatrvalue) group by attribute_value_id";
         $date = date("Y-m-d");
         $this->db->where('date>=', $date);
         $this->db->group_by('aid');
-        $this->db->order_by('id');
+        $this->db->order_by('date');
         $query = $this->db->get('appointment_entry');
         $countryAppointment = $query->result_array();
 
